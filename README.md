@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # player.js :boom:
 Insert a custom HTML5 Video Player in your website.
 
@@ -66,3 +67,9 @@ It is not yet mobile friendly and many other features can be added too.
 **_All the Contributions are appreciated._**
 
 **_Built with :heart: by DHARMIK JOSHI_**
+=======
+# player.js
+Insert a custom HTML5 Video Player in your website.
+
+## UNDER DEVELOPMENT :relaxed:
+>>>>>>> 939cc06f9cf069999821803c81303bca9c3cf29c
