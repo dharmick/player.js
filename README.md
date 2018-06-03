@@ -27,16 +27,16 @@ It uses pure JAVASCRIPT for scripting and CSS3 for styling. There is **zero** de
 
 **1.** Include this css file inside Head section.
 ```
-<link rel='stylesheet' href='player.css'\>
+<link rel='stylesheet' href='player.css'>
 ```
 **2.** Include fontawesome from cdn.
 ```
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"\>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 ```
 
 **3.** Include this script at the end of body.
 ```
-<script src="player.js"\></script\>
+<script src="player.js"></script>
 ```
 
 **4.** Customize the default behaviour using playerSettings( ) function, if necessary.  **Call this function below player.js**
