@@ -1,0 +1,78 @@
+video::-webkit-media-controls {
+  display:none !important;
+}
+
+.player-js {
+  position: relative;
+  margin: 10px auto;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.player-js:hover .video-controls{
+  opacity: 1;
+  transition: all 500ms;
+}
+
+.player-js .video {
+  background: #000;
+}
+
+.player-js .video video {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.player-js .video-controls {
+  background: linear-gradient(rgba(0,0,0,.9),transparent 20%,transparent 80%,rgba(0,0,0,.9));
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 2147483648;
+  transition: opacity 3000ms;
+}
+
+.player-js .video-hover {
+  display: block;
+}
+
+.player-js .progress-bar:hover {
+  height: 10px;
+}
+
+.player-js .progress-bar {
+  width: 100%;
+  height: 5px;
+  background: #eee;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.player-js .progress-filled {
+  background: red;
+  height: 100%;
+  width: 0;
+}
+
+.player-js .lower-controls {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.player-js .control-buttons {
+  padding: 0 10px;
+}
+
+.player-js .control-buttons div{
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.player-js .upper-controls {
+  padding: 10px 20px;
+  font-size: 25px;
+}
