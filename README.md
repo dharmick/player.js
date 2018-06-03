@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-# player.js :boom:
+# _PLAYER.JS_ :boom:
 Insert a custom HTML5 Video Player in your website.
 
 ## Description
-This project provides custom Video Player for putting on your website. The default browser video player is dull and creating a new one is a hectic task.
+This project provides custom Video Player for your website. The default browser video player is dull and creating a new one is a hectic task.
 Through this project you can create highly customized video players in minutes.
 
 ## Languages used
@@ -25,21 +24,22 @@ It uses pure JAVASCRIPT for scripting and CSS3 for styling. There is **zero** de
 <img src='screen.gif' width='500px'>
 
 ## Installation
-1. Include this css file inside Head section.
+
+**1.** Include this css file inside Head section.
 ```
 <link rel='stylesheet' href='player.css'\>
 ```
-2. Include fontawesome from cdn.
+**2.** Include fontawesome from cdn.
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"\>
 ```
 
-3. Include this script at the end of body.
+**3.** Include this script at the end of body.
 ```
 <script src="player.js"\></script\>
 ```
 
-4. Customize the default behaviour using playerSettings( ) function, if necessary.  **Call this function below player.js**
+**4.** Customize the default behaviour using playerSettings( ) function, if necessary.  **Call this function below player.js**
 ```
     <script>
       playerSettings({
@@ -66,10 +66,4 @@ It is not yet mobile friendly and many other features can be added too.
 
 **_All the Contributions are appreciated._**
 
-**_Built with :heart: by DHARMIK JOSHI_**
-=======
-# player.js
-Insert a custom HTML5 Video Player in your website.
-
-## UNDER DEVELOPMENT :relaxed:
->>>>>>> 939cc06f9cf069999821803c81303bca9c3cf29c
+### **_Built with :heart: by DHARMIK JOSHI_**
