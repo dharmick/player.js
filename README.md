@@ -25,21 +25,31 @@ It uses pure JAVASCRIPT for scripting and CSS3 for styling. There is **zero** de
 
 ## Installation
 
-**1.** Include this css file inside Head section.
+**1.** Include this CSS file inside Head section.
 ```
 <link rel='stylesheet' href='player.css'>
 ```
-**2.** Include fontawesome from cdn.
+**2.** Include FontAwesome from CDN.
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 ```
 
-**3.** Include this script at the end of body.
+**3.** Include this script at the end of body and before calling playerSettings( ) function.
 ```
 <script src="player.js"></script>
 ```
 
-**4.** Customize the default behaviour using playerSettings( ) function, if necessary.  **Call this function below player.js**
+**4.** Add HTML wherever required.
+```
+<div class = 'player-js'
+     data-src = 'path-to-file.mp4'
+     data-title = 'Put your video title here!'
+     data-width = '600'
+     data-height = '400'>
+</div>
+```
+
+**5.** Customize the default behaviour using playerSettings( ) function, if necessary.  **Call this function below player.js**
 ```
     <script>
       playerSettings({
@@ -60,10 +70,10 @@ It uses pure JAVASCRIPT for scripting and CSS3 for styling. There is **zero** de
 > You can change these Default Values using playerSettings( ) function.
 
 ## Contribution
-This project is in beginning stage and contains a few bugs.
+- This project is in beginning stage and contains a few bugs.
 
-It is not yet mobile friendly and many other features can be added too.
+- It is not yet mobile friendly and many other features can be added too.
 
-**_All the Contributions are appreciated._**
+- **All the Contributions are appreciated.**
 
 ### **_Built with :heart: by DHARMIK JOSHI_**
